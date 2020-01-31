@@ -1,5 +1,7 @@
 # Run Nginx
 
+Sample from https://github.com/wasmerio/wasmer-nginx-example
+
 This example has Nginx compiled to WebAssembly using Emscripten.
 
 You can run it locally with:

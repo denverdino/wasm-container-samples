@@ -1,0 +1,8 @@
+
+{
+  "buildpacks": [
+    {
+      "url": "http://github.com/heroku/heroku-buildpack-c.git"
+    }
+  ]
+}
