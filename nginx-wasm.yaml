@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-wasm
+spec:
+  runtimeClassName: wasm
+  containers:
+  - name: nginx
+    image: denverdino/nginxwasm
+    ports:
+      - containerPort: 8080
